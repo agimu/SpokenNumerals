@@ -1,2 +1,7 @@
 # SpokenNumerals
 A basic and advanced model to recognise numerals and their intonations
+
+The main objective of this project is to build a model that can recognize numerals and their intonations from the audio source. It consists of a basic solution and an advanced solution to tackle different kinds of problems. The basic solution will only return the accuracy of the model based on the intonation. The advanced solution however, can be used to recognise the numerals as well as the digits using the digit_label. Contributions to the dataset were made by my batchmates of Machine Learning module of course MSc Big Data Science, Queen Mary University of London. All the students were instructed to record themselves saying the number from 0 to 9, 10 to 19, 20 to 90 by incrementing 10 numbers and 100 to 1000000000 by only recording major numbers like 1000 or million.
+The dataset is made available to the public via this url: "https://collect.qmul.ac.uk/down?t=6H8231DQL1NGDI9A/613DLM2R3OFV5EEH9INK2OG"
+
+The preparation of the dataset included in recording the same numeral set four times but with different intonations: Neutral, Bored, Excited, Question. Apart from this, we were also asked a few more things about our ethnicities, location etc. Using that data, a .csv file was created with 4 attributes: File ID, Digital Label, Participant and intonation. The same were used as the label to train the model.
